@@ -29,11 +29,11 @@ public class AlipayConfig {
 	// 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
 	
     /*public static String notify_url = "http://商户网址/create_direct_pay_by_user-JAVA-UTF-8/notify_url.jsp";*/
-    public static String notify_url = "http://114.215.222.233/br-order-user-controller/alipay/notify";
+    public static String notify_url = "http://218.94.129.122:8083/br-order-user-controller/alipay/notify";
     
     	
 	// 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-	public static String return_url = "http://114.215.222.233/order/pages/alipay/callback.shtml";
+	public static String return_url = "http://218.94.129.122:8083/order/pages/alipay/callback.shtml";
 
 	// 签名方式
 	public static String sign_type = "MD5";
@@ -75,7 +75,7 @@ public class AlipayConfig {
 	
 	
 	/*public static String notify_url = "http://商户网址/create_direct_pay_by_user-JAVA-UTF-8/notify_url.jsp";*/
-    public static String refund_notify_url = "http://114.215.222.233/br-order-user-controller/alipayRefund/notify";
+    public static String refund_notify_url = "http://218.94.129.122:8083/br-order-user-controller/alipayRefund/notify";
     
     //退款笔数
     public static String batch_num="1";

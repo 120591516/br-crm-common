@@ -24,7 +24,7 @@ public final class PayConfigUtil {
 	// 1）统一下单
 	public static String PAY_API = "https://api.mch.weixin.qq.com/pay/unifiedorder";
 	// 2）回调地址
-	public static String NOTIFY_URL = "http://114.215.222.233/br-order-user-controller/cusOrderCus/notifyURL";
+	public static String NOTIFY_URL = "http://218.94.129.122:8083/br-order-user-controller/cusOrderCus/notifyURL";
 	// 3）查询订单
 	public static String orderquery = "https://api.mch.weixin.qq.com/pay/orderquery";
 	// 4）申请退款
