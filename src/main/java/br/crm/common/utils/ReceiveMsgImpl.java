@@ -1,4 +1,4 @@
-package br.crm.common.utils;
+/*package br.crm.common.utils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,19 +25,19 @@ public class ReceiveMsgImpl extends ReceiveMsg {
     @Override
     public void getReturnMsg(ReturnMsgBean returnMsgBean) {
         String sequenceId = returnMsgBean.getSequenceId();
-        /* 短信的msgId */ // 20170324150629030641
+         短信的msgId  // 20170324150629030641
         String msgId = returnMsgBean.getMsgId();
-        /* 发送号码 */ // 18268888717
+         发送号码  // 18268888717
         String sendNum = returnMsgBean.getSendNum();
-        /* 接收号码 */ // 77600002583272105
+         接收号码  // 77600002583272105
         String receiveNum = returnMsgBean.getReceiveNum();
-        /* 短信提交时间 */ // 1703241506
+         短信提交时间  // 1703241506
         String submitTime = returnMsgBean.getSubmitTime();
-        /* 短信下发时间 */ // 1703241506
+         短信下发时间  // 1703241506
         String sendTime = returnMsgBean.getSendTime();
-        /* 短信状态 */ // DELIVRD
+         短信状态  // DELIVRD
         String msgStatus = returnMsgBean.getMsgStatus();
-        /* 短信错误代码 */ // 0
+         短信错误代码  // 0
         int msgErrStatus = returnMsgBean.getMsgErrStatus();
 
         // 此处加入接收短信回执的处理代码
@@ -52,3 +52,4 @@ public class ReceiveMsgImpl extends ReceiveMsg {
     }
 
 }
+*/
