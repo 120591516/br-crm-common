@@ -176,12 +176,12 @@
 			<version>3.9</version>
 		</dependency>
 		<!-- 发短信jar包 -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>sendMsg.java</groupId>
 			<artifactId>sendMsg.java</artifactId>
 			<version>1.0</version>
-			<description>POM was created from install:install-file</description>
-		</dependency> -->
+		<!-- 	<description>POM was created from install:install-file</description> -->
+		</dependency>
 		<!-- <dependency> <groupId>java</groupId> <artifactId>wxpay-scanpay-java-sdk</artifactId> 
 			<version>1.0</version> <scope>system</scope> <systemPath>${basedir}/lib/wxpay-scanpay-java-sdk-1.0.jar</systemPath> 
 			</dependency> -->
